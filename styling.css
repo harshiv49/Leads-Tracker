@@ -1,0 +1,50 @@
+body{
+    margin:0px;
+    padding:10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-width:400px;
+}
+
+input{
+font-family: Georgia, 'Times New Roman', Times, serif;
+width:70%;
+height:25px;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+a:hover{
+    color:rgb(4, 85, 4);
+}
+a{
+   
+    color: rgb(11, 126, 11);
+}
+button:hover{
+    background-color: rgb(4, 85, 4);
+    /* transform:scale(1.2); */
+}
+#delete-btn:hover{
+    background-color: rgb(4, 85, 4);
+    color: white;
+}
+#delete-btn{
+    background-color: white;
+    color: rgb(11, 126, 11);
+}
+button{
+     /*transition: transform .2s; */
+    margin-top:12px;
+    margin-left: 16px;
+    font-size:22px;
+    width :180px;
+    
+    background-color: rgb(11, 126, 11);
+    color:white;
+    height:30px;
+    border-radius:5px solid black;
+}
